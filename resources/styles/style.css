@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: canter;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 63 px;
+    background: #171717;
+      position: fixed;  
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+.navbar a{
+    
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #668b94;
+}
+.header{
+    height: 90vh !important;
+    background: url(img/360_F_355240513_ZKLZ90NU7lq1eaOA3fg27unhZnrgVmrv.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 200px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saw{
+    padding:  170px;
+    background: url(img/map.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: red;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.box-container .box h3{
+    font-size: 20px;
+    color: rgb(242, 242, 242);
+}
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16 px;
+
+}
+.about{
+    background: url(img/3ef1d460e6bb89eaa7d2fcf283795191.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.price{
+    background: url(img/de5083596c0909512b27ac79f46e071d.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.contact{
+    padding-top: 20px;
+    background: url(img/2109.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: o;
+}
+li{
+    color: white;
+}
+a{
+    color: white;
+}
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .saw {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
